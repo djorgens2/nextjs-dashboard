@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6">
-              <p className='font-quezon font-bold text-5xl'>Welcome to Manila</p>
+              <h1 className='text-7xl font-extrabold'>Welcome to Manila</h1>
       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
         {/* <AcmeLogo /> */}
       </div>

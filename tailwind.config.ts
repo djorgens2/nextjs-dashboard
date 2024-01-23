@@ -8,9 +8,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        quezon: ['Quezon', 'sans-serif']
-      },
       gridTemplateColumns: {
         '13': 'repeat(13, minmax(0, 1fr))',
       },
