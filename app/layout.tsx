@@ -1,8 +1,9 @@
-import './global.css';
-import { inter } from './fonts';
-import localFont from 'next/font/local';
+import './global.css'
+import { Inter } from 'next/font/google'
+import localFont from 'next/font/local'
 
 const quezon = localFont({ src: './fonts/Quezon.ttf'})
+const inter = Inter({ subsets: ['latin'] })
 
 export default function RootLayout({
   children,
@@ -12,8 +13,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       {/* <body className={`${inter.className} antialiased`}> */}
+      <body className={inter.className}>
       {/* <body className={`${quezon.className} antialiased`}> */}
-      <body className={quezon.className}>
+      {/* <body className={quezon.className}> */}
         {children}
       </body>
       
