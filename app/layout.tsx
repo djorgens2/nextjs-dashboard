@@ -1,9 +1,5 @@
 import './global.css'
-import { Inter } from 'next/font/google'
-import localFont from 'next/font/local'
-
-const quezon = localFont({ src: './fonts/Quezon.ttf'})
-const inter = Inter({ subsets: ['latin'] })
+import { inter } from '@/app/ui/fonts'
 
 export default function RootLayout({
   children,
